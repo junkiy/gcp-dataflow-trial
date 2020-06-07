@@ -7,9 +7,9 @@ function transform(line) {
     obj.location = values[0];
     obj.name = values[1];
     obj.age = values[2];
-    // input data is JST.
-    // BigQueryIO in Apache beam can't use timestamp JST.
-    // so I convert timestamp JST to UST
+    // timestamp of input data is JST.
+    // BigQueryIO in Apache beam can't support timestamp JST.
+    // so convert timestamp JST to UST
     obj.createdAt = convert_JST2UST(values[3]);
 
     var jsonString = JSON.stringify(obj);
