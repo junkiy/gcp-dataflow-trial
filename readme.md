@@ -11,8 +11,8 @@ NOTE: You can't use JAPANESE page.
     ```
 1. Set environment variables
     ```
-    export MY_DATASET=my-dataset
-    export MY_TABLE=my-table
+    export MY_DATASET=my_dataset
+    export MY_TABLE=my_table
     ```
 1. Make empty table  
 NOTE: Using ingestion-time partitioned tables.
