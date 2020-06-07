@@ -33,7 +33,7 @@ NOTE: Before this step, please copy each files to VM(Cloud Shell).
     ```
     gsutil cp index.js gs://${GOOGLE_CLOUD_PROJECT}-dataflow/index.js
     gsutil cp schema.json gs://${GOOGLE_CLOUD_PROJECT}-dataflow/schema.json
-    gsutil cp data.txt gs://${GOOGLE_CLOUD_PROJECT}-dataflow/data.txt
+    gsutil cp data.csv gs://${GOOGLE_CLOUD_PROJECT}-dataflow/data.csv
     ```
 1. Run dataflow
     ```
