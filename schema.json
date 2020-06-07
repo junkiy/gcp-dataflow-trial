@@ -1,0 +1,20 @@
+{
+    "BigQuery Schema":[
+       {
+          "name":"location",
+          "type":"STRING"
+       },
+       {
+          "name":"name",
+          "type":"STRING"
+       },
+       {
+          "name":"age",
+          "type":"INTEGER"
+       },
+       {
+          "name":"createdAt",
+          "type":"TIMESTAMP"
+       }
+    ]
+ }
