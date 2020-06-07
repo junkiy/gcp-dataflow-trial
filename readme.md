@@ -28,7 +28,7 @@ NOTE: Using ingestion-time partitioned tables.
     ```
     gsutil mb -c standard -b on -l ASIA-NORTHEAST1 gs://${GOOGLE_CLOUD_PROJECT}-dataflow
     ```
-1. Copy files to bucket
+1. Copy files to bucket  
 NOTE: Before this step, please copy each files to VM(Cloud Shell).
     ```
     gsutil cp index.js gs://${GOOGLE_CLOUD_PROJECT}-dataflow/index.js
